@@ -1,0 +1,53 @@
+{
+  "input_size": 32,
+  "feature_columns": [
+    "scheduled_accounts",
+    "authorization_required",
+    "authorizations_completed",
+    "denials",
+    "total_charges",
+    "denied_charges",
+    "average_turnaround_hours",
+    "work_queue_volume",
+    "staff_fte",
+    "authorization_completion_rate",
+    "denial_rate",
+    "accounts_per_fte",
+    "revenue_per_account",
+    "clearance_rate",
+    "clearance_rate_lag_1",
+    "clearance_rate_lag_2",
+    "clearance_rate_lag_7",
+    "clearance_rate_rolling_7",
+    "queue_rolling_7",
+    "turnaround_rolling_7",
+    "day_of_week",
+    "month",
+    "specialty_Home Care",
+    "specialty_Neurology",
+    "specialty_Pulmonology",
+    "specialty_Sleep",
+    "specialty_Speech",
+    "payer_AmeriHealth",
+    "payer_Cigna",
+    "payer_Independence Blue Cross",
+    "payer_Medicaid",
+    "payer_Medicare"
+  ],
+  "specialty_categories": [
+    "Audiology",
+    "Home Care",
+    "Neurology",
+    "Pulmonology",
+    "Sleep",
+    "Speech"
+  ],
+  "payer_categories": [
+    "Aetna",
+    "AmeriHealth",
+    "Cigna",
+    "Independence Blue Cross",
+    "Medicaid",
+    "Medicare"
+  ]
+}

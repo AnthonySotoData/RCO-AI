@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Python environments and caches
+.venv
+venv
+__pycache__
+*.py[cod]
+.pytest_cache
+.coverage
+htmlcov
+
+# Environment variables
+.env
+
+# IDE and operating system files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local development artifacts
+notebooks
