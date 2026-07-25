@@ -304,3 +304,14 @@ It is not intended for clinical or production use.
 # License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## About the Author
+
+Hi, I'm **Anthony Soto**, a data and AI professional with a background in healthcare operations, revenue cycle optimization, and applied machine learning. I enjoy building practical AI solutions that solve real-world business problems through modern data engineering, Retrieval-Augmented Generation (RAG), and intelligent automation.
+
+I developed **RCO AI** as an original portfolio project to demonstrate how artificial intelligence can optimize healthcare revenue cycle operations through predictive analytics, machine learning, and operational intelligence. The project focuses on forecasting performance, identifying workflow bottlenecks, detecting operational anomalies, and generating data-driven recommendations to improve revenue cycle efficiency and decision-making.
+
+### Connect with Me
+
+- **GitHub:** https://github.com/AnthonySotoData
+- **LinkedIn:** https://www.linkedin.com/in/anthony-soto-a7b68716b
