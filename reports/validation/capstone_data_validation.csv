@@ -1,0 +1,14 @@
+validation_metric,value
+Raw row count,108000
+Prepared row count,108000
+Rows removed,0
+Raw column count,13
+Missing values detected,0
+Duplicate rows detected,0
+Invalid dates detected,0
+Negative numeric values detected,0
+Daily analysis rows,3000
+Minimum record date,2018-05-05
+Maximum record date,2026-07-21
+Unique specialties,6
+Unique payers,6

@@ -1,0 +1,37 @@
+========================================================================
+RCO AI DATA ENGINEERING CAPSTONE - ETL SUMMARY
+========================================================================
+
+Run timestamp: 2026-08-02 23:25:01 Eastern Daylight Time
+Execution status: SUCCESS
+
+DATASET COUNTS
+------------------------------------------------------------------------
+Raw records: 108000
+Prepared records: 108000
+Records removed during preparation: 0
+Daily analysis records: 3000
+
+DATA QUALITY RESULTS
+------------------------------------------------------------------------
+Missing values detected: 0
+Duplicate rows detected: 0
+Invalid dates detected: 0
+Negative numeric values detected: 0
+
+DATA SCOPE
+------------------------------------------------------------------------
+Minimum record date: 2018-05-05
+Maximum record date: 2026-07-21
+Unique specialties: 6
+Unique payers: 6
+
+OUTPUT FILES
+------------------------------------------------------------------------
+Prepared detail dataset: data\processed\capstone_prepared_detail.csv
+Daily analysis dataset: data\processed\capstone_daily_analysis.csv
+
+The daily dataset contains one aggregated observation per date.
+Authorization turnaround time is weighted by authorization-required volume.
+
+========================================================================

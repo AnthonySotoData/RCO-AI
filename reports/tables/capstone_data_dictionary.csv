@@ -1,0 +1,19 @@
+column_name,data_type,dataset_level,description,business_meaning
+record_date,date,"raw, prepared, daily",Date associated with the operational record.,"Supports time-based aggregation, trending, and forecasting."
+specialty,categorical,"raw, prepared",Clinical specialty associated with the record.,Allows comparison of operational performance across service areas.
+payer,categorical,"raw, prepared",Insurance payer associated with the record.,Supports evaluation of payer-specific authorization and denial patterns.
+scheduled_accounts,integer,"raw, prepared, daily",Number of accounts scheduled for service.,Represents operational account volume and workload demand.
+cleared_accounts,integer,"raw, prepared, daily",Number of accounts financially cleared.,Measures completed financial clearance activity.
+authorization_required,integer,"raw, prepared, daily",Number of accounts requiring payer authorization.,Represents the volume of authorization-related work.
+authorizations_completed,integer,"raw, prepared, daily",Number of required authorizations completed.,Measures authorization workflow completion.
+denials,integer,"raw, prepared, daily",Number of denied accounts.,Represents adverse revenue cycle outcomes.
+total_charges,currency,"raw, prepared, daily",Total charges associated with scheduled accounts.,Provides the financial value of operational account volume.
+denied_charges,currency,"raw, prepared, daily",Charges associated with denied accounts.,Primary dependent variable and measure of financial risk.
+average_turnaround_hours,continuous numeric,"raw, prepared, daily",Average number of hours required to complete authorization activity.,Primary independent variable used to evaluate operational timeliness.
+work_queue_volume,integer,"raw, prepared, daily",Number of items in the operational work queue.,Measures outstanding workload and potential workflow congestion.
+staff_fte,continuous numeric,"raw, prepared, daily",Available full-time-equivalent staffing level.,Represents operational staffing capacity.
+clearance_rate,proportion,"prepared, daily",Cleared accounts divided by scheduled accounts.,Measures the proportion of scheduled accounts financially cleared.
+authorization_completion_rate,proportion,"prepared, daily",Completed authorizations divided by required authorizations.,Measures authorization workflow effectiveness.
+denial_rate,proportion,"prepared, daily",Denials divided by scheduled accounts.,Provides a volume-adjusted denial performance measure.
+denied_charge_rate,proportion,"prepared, daily",Denied charges divided by total charges.,Provides a volume-adjusted measure of denied financial value.
+workload_per_fte,continuous numeric,"prepared, daily",Work queue volume divided by staff FTE.,Measures operational workload relative to staffing capacity.
