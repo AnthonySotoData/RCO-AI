@@ -1,0 +1,2 @@
+independent_variable,dependent_variable,observation_count,pearson_correlation,p_value,significance_level,statistically_significant
+average_turnaround_hours,denied_charge_rate,3000,0.772332,0.0,0.05,True

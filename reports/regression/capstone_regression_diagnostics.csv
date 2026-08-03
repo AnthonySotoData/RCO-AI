@@ -1,0 +1,3 @@
+analysis,observation_count,residual_mean,residual_standard_deviation,mean_absolute_error,root_mean_squared_error,durbin_watson_statistic,jarque_bera_statistic,jarque_bera_p_value,omnibus_statistic,omnibus_p_value,residual_skewness,residual_kurtosis,minimum_observed_value,maximum_observed_value,minimum_predicted_value,maximum_predicted_value
+Primary,3000,0.0,33703.493008,27433.198884,33697.875291,1.191927,168.001686,< 0.001,146.438582,< 0.001,-0.579609,3.015095,135879.1,491856.39,100118.181619,541630.412352
+Sensitivity,3000,0.0,0.003855,0.002951,0.003854,1.038936,323.892164,< 0.001,186.382408,< 0.001,-0.472053,4.303765,0.0382,0.0885,0.050322,0.086572

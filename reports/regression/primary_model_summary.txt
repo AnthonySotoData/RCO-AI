@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         denied_charges   R-squared:                       0.742
+Model:                            OLS   Adj. R-squared:                  0.741
+Method:                 Least Squares   F-statistic:                     8601.
+Date:                Mon, 03 Aug 2026   Prob (F-statistic):               0.00
+Time:                        00:05:15   Log-Likelihood:                -35532.
+No. Observations:                3000   AIC:                         7.107e+04
+Df Residuals:                    2998   BIC:                         7.108e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                    -2.637e+05   6274.191    -42.024      0.000   -2.76e+05   -2.51e+05
+average_turnaround_hours  1.249e+04    134.725     92.743      0.000    1.22e+04    1.28e+04
+==============================================================================
+Omnibus:                      146.439   Durbin-Watson:                   1.192
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              168.002
+Skew:                          -0.580   Prob(JB):                     3.30e-37
+Kurtosis:                       3.015   Cond. No.                         475.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

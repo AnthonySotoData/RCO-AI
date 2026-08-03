@@ -1,0 +1,37 @@
+========================================================================
+PRIMARY - HYPOTHESIS TEST SUMMARY
+========================================================================
+
+Independent variable: average_turnaround_hours
+Dependent variable: denied_charges
+Number of observations: 3,000
+
+CORRELATION
+------------------------------------------------------------------------
+Pearson correlation coefficient: 0.861125
+Correlation p-value: < 0.001
+
+LINEAR REGRESSION
+------------------------------------------------------------------------
+Regression coefficient: 12494.827617
+95% confidence interval: [12230.664416, 12758.990817]
+Coefficient p-value: < 0.001
+R-squared: 0.741536
+Adjusted R-squared: 0.741449
+
+HYPOTHESIS DECISION
+------------------------------------------------------------------------
+Significance level: 0.05
+Decision: Reject the null hypothesis.
+Statistically significant: True
+
+PLAIN-LANGUAGE INTERPRETATION
+------------------------------------------------------------------------
+The analysis identified a statistically significant positive relationship between average_turnaround_hours and denied_charges.
+The coefficient estimates the average change in the dependent variable associated with a one-unit increase in authorization turnaround time.
+
+LIMITATION
+------------------------------------------------------------------------
+The analysis uses synthetic operational data and identifies statistical association rather than causation.
+
+========================================================================

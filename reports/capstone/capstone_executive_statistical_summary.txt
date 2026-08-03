@@ -1,0 +1,27 @@
+========================================================================
+RCO AI CAPSTONE - EXECUTIVE STATISTICAL SUMMARY
+========================================================================
+
+RESEARCH QUESTION
+------------------------------------------------------------------------
+To what extent does authorization turnaround time affect denied charges in healthcare revenue cycle operations?
+
+PRIMARY FINDING
+------------------------------------------------------------------------
+A strong positive relationship was identified between authorization turnaround time and daily denied charges (Pearson r = 0.861, p < 0.001).
+The linear regression coefficient was $12,494.83. Within the synthetic dataset, this means that each additional hour of average authorization turnaround time was associated with an estimated $12,494.83 increase in daily denied charges.
+Authorization turnaround time explained approximately 74.2% of the variation in daily denied charges in the simple regression model (R² = 0.742).
+The coefficient was statistically significant (p < 0.001), resulting in rejection of the null hypothesis.
+
+SENSITIVITY ANALYSIS
+------------------------------------------------------------------------
+A secondary analysis used denied-charge rate to account for differences in total daily charge volume.
+The relationship remained positive and statistically significant (Pearson r = 0.772, R² = 0.596, p < 0.001).
+The sensitivity model explained approximately 59.6% of the variation in denied-charge rate.
+
+INTERPRETATION AND LIMITATION
+------------------------------------------------------------------------
+The results support a statistically significant association between longer authorization turnaround times and increased denied-charge risk.
+The findings do not establish causation. The dataset is synthetic, and its relationships reflect the assumptions used to simulate healthcare revenue cycle operations.
+
+========================================================================

@@ -1,0 +1,2 @@
+independent_variable,dependent_variable,observation_count,intercept,coefficient,standard_error,t_statistic,p_value,confidence_interval_lower,confidence_interval_upper,r_squared,adjusted_r_squared,f_statistic,f_p_value,residual_mean,residual_standard_deviation,significance_level,statistically_significant,hypothesis_decision
+average_turnaround_hours,denied_charge_rate,3000,0.020453,0.001026,1.5e-05,66.572815,0.0,0.000996,0.001056,0.596497,0.596363,4431.939648,0.0,0.0,0.003855,0.05,True,Reject the null hypothesis.
