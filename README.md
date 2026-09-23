@@ -116,10 +116,10 @@ RCO AI combines multiple layers of the modern analytics lifecycle:
 ```mermaid
 flowchart TD
 
-A["Synthetic Healthcare<br/>Revenue Cycle Data"]
+A["Synthetic Revenue Cycle<br/>Operational Data"]
 
 A --> B["Data Validation<br/>& ETL"]
-A --> C["ML Feature<br/>Engineering"]
+A --> C["Forecast Feature<br/>Engineering"]
 
 B --> D["Daily Analytical<br/>Dataset"]
 
@@ -145,7 +145,13 @@ I --> P["Executive Decision<br/>Support"]
 O --> P
 ```
 
-The architecture allows the same operational data foundation to support both **explanatory statistical analysis** and **predictive modeling**.
+RCO AI uses a shared synthetic revenue cycle operational data foundation to support two complementary analytical workflows.
+
+The **statistical analytics path** validates and transforms operational data into a daily analytical dataset used for descriptive analytics, Pearson correlation, OLS regression, sensitivity analysis, statistical reporting, and visualization.
+
+The **predictive machine learning path** separately engineers forecasting features, including historical, lag, rolling-window, operational, payer, specialty, and calendar features. These features are scaled and passed to a PyTorch neural network that forecasts next-day financial clearance performance. The trained model is accessed through a reusable inference service that supports both the FastAPI REST API and Streamlit dashboard.
+
+Together, these workflows combine **data engineering, statistical analysis, predictive machine learning, and application development** to support revenue cycle operational decision-making.
 
 ---
 
