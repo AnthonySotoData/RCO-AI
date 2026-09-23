@@ -116,31 +116,32 @@ RCO AI combines multiple layers of the modern analytics lifecycle:
 ```mermaid
 flowchart TD
 
-A[Synthetic Healthcare Revenue Cycle Data]
+A["Synthetic Healthcare<br/>Revenue Cycle Data"]
 
-A --> B[Data Validation & ETL]
-A --> C[ML Feature Engineering]
+A --> B["Data Validation<br/>& ETL"]
+A --> C["ML Feature<br/>Engineering"]
 
-B --> D[Daily Analytical Dataset]
-D --> E[Descriptive Analytics]
-D --> F[Pearson Correlation]
-D --> G[OLS Regression]
-D --> H[Sensitivity Analysis]
+B --> D["Daily Analytical<br/>Dataset"]
 
-E --> I[Statistical Reports & Visualizations]
+D --> E["Descriptive<br/>Analytics"]
+D --> F["Pearson<br/>Correlation"]
+D --> G["OLS<br/>Regression"]
+D --> H["Sensitivity<br/>Analysis"]
+
+E --> I["Statistical Reports<br/>& Visualizations"]
 F --> I
 G --> I
 H --> I
 
-C --> J[Historical / Lag / Rolling Features]
-J --> K[Feature Scaling]
-K --> L[PyTorch Neural Network]
-L --> M[Inference Service]
+C --> J["Historical, Lag &<br/>Rolling Features"]
+J --> K["Feature<br/>Scaling"]
+K --> L["PyTorch<br/>Neural Network"]
+L --> M["Inference<br/>Service"]
 
-M --> N[FastAPI REST API]
-M --> O[Streamlit Dashboard]
+M --> N["FastAPI<br/>REST API"]
+M --> O["Streamlit<br/>Dashboard"]
 
-I --> P[Executive Decision Support]
+I --> P["Executive Decision<br/>Support"]
 O --> P
 ```
 
@@ -184,14 +185,14 @@ The post-capstone version of RCO AI includes a dedicated analytical ETL pipeline
 ```mermaid
 flowchart LR
 
-A[Raw Operational Data]
---> B[Schema Validation]
---> C[Data Quality Checks]
---> D[Transformation]
---> E[Feature / KPI Engineering]
---> F[Daily Aggregation]
---> G[Analysis-Ready Dataset]
---> H[Statistical Analysis]
+A["Raw Operational<br/>Data"]
+--> B["Schema<br/>Validation"]
+--> C["Data Quality<br/>Checks"]
+--> D["Data<br/>Transformation"]
+--> E["KPI & Feature<br/>Engineering"]
+--> F["Daily<br/>Aggregation"]
+--> G["Analysis-Ready<br/>Dataset"]
+--> H["Statistical<br/>Analysis"]
 ```
 
 ## Data Validation
@@ -497,6 +498,26 @@ model_metadata.json
 ```
 
 Persisting the model, scaler, feature schema, and metadata helps ensure that inference uses the same feature structure and preprocessing logic used during model development.
+
+---
+
+# Machine Learning Pipeline
+
+The forecasting workflow transforms synthetic healthcare operational data into a next-day financial clearance prediction and corresponding operational decision support.
+
+```mermaid
+flowchart LR
+
+A["Synthetic<br/>Healthcare Data"]
+--> B["Feature<br/>Engineering"]
+--> C["Feature<br/>Scaling"]
+--> D["PyTorch<br/>Forecast Model"]
+--> E["Model<br/>Inference"]
+--> F["Risk<br/>Classification"]
+--> G["Operational<br/>Recommendations"]
+```
+
+The pipeline separates feature preparation, preprocessing, model inference, and business-facing interpretation so that the trained forecasting model can be reused across the API and dashboard layers.
 
 ---
 
